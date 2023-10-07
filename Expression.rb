@@ -619,7 +619,7 @@ end
 
 
 grid = Grid.new()
-grid.set(1,1, Add.new(IntegerPrimative.new(1), IntegerPrimative.new(2)))
+grid.set(1,1, Add.new(IntegerPrimative.new(1), FloatPrimative.new(2.0)))
 grid.set(1,2, Subtract.new(IntegerPrimative.new(10), IntegerPrimative.new(5)))
 grid.set(1,3, Multiply.new(IntegerPrimative.new(2), IntegerPrimative.new(3)))
 grid.set(1,4, Divide.new(IntegerPrimative.new(10), IntegerPrimative.new(2)))
